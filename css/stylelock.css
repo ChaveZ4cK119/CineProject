@@ -1,0 +1,72 @@
+#gbutton{
+    font-size: large;
+    background-color: rgb(248, 199, 199);
+    cursor: pointer;
+}
+#gbutton:hover{
+    background-color: rgb(214, 151, 151);
+}
+#priform{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    min-height: auto;
+    display: flex;
+    background-position-y: 0px;
+    background-position-x: 0px;
+    background-image: url(../img/malph.jpg);
+    
+    
+    text-align: center;
+    border-radius: 10px ;
+    justify-content: center;
+    
+    
+    
+}
+.dropbtn{
+    font-size: larger;
+    background-color: rgb(215, 126, 247);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dropbtn:hover{
+    background-color: rgb(185, 147, 252);
+}
+#priform2{
+    
+    padding-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 300px;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 400PX;
+}
+#priform2 label{
+    
+    font-size: large;
+    color:white
+}
+#priform2 h2{
+    font-size:xx-large;
+    color:white
+}
+.ru{
+    font-size: large;
+    text-align: center;
+}
+.back{
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(248, 199, 199);
+}
+.back:hover{
+    background-color: rgb(214, 151, 151);
+}

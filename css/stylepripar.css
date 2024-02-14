@@ -1,0 +1,136 @@
+#topri{
+    background-color: rgb(252, 200, 165);
+   display: flex;
+   height: auto;
+   border-radius: 10px;
+   
+   
+    
+}
+#topri2{
+    text-align: center;
+    margin-left: 10px;
+    max-height: 20px;
+    margin: 5px;
+}
+#usuario{
+    margin: 5px;
+}
+#topri3{
+    display: flex;
+    justify-content:center;
+    flex: 1;
+    padding-top: 10px;
+ 
+    
+}
+#topri4{
+    height: min-content;
+    width: max-content;
+    background-color: rgb(241, 186, 123);
+    border-radius: 10px;
+    border-style: solid;
+    border: 5px;
+    border-color: white;
+}
+/*
+#topri5{
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    
+
+}
+#topri5:hover {
+    #opciones {
+        display: block;
+    }
+}
+*/
+
+
+
+/* Estilo para la lista desplegable */
+.dropdown {
+    margin-top: 35px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilo para el botón principal de la lista desplegable */
+  .dropbtn {
+    font-size: larger;
+    background-color: rgb(236, 187, 131);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* Estilo para el contenido de la lista desplegable */
+  .dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: rgb(245, 208, 165);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Estilo para los enlaces dentro de la lista desplegable */
+  .dropdown-content a {
+    width: auto;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Cambiar el color de fondo de los enlaces al pasar el mouse por encima */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+  
+  /* Mostrar la lista desplegable cuando se pasa el mouse por encima del botón */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+#opciones{
+    display: none;
+    text-align: center;
+    list-style:none
+}
+.opciones{
+    color: black;
+}
+
+
+#usuario{
+    height: 100px;
+    max-width: 100px;
+    
+    border-radius: 100px;
+}
+#catalogo{
+    display: flex;
+    background-color: rgb(142, 161, 161);
+    justify-content: center;
+}
+.pelis {
+    width: 50px;
+    background-color: rgb(0, 255, 170);
+    margin: left 10px;
+}
+body{
+    background-color: rgb(204, 241, 255);
+    
+}

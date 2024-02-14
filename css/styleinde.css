@@ -1,0 +1,159 @@
+#gbutton{
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    background-color: rgb(252, 223, 255);
+    border-style: none;
+    border-radius: 5px;
+    transition: .4s;
+    
+}
+#gbutton:hover{
+    transition: .4s;
+    cursor: pointer;
+    background-color: rgb(206, 97, 236);
+    color: white;
+}
+#priform{
+    min-height: 100%;
+    display: flex;
+    background-position-y: -550px;
+    background-position-x: -450px;
+   
+    text-align: center;
+    border-radius: 10px ;
+    justify-content: center;
+    
+    
+}
+#priform2{
+    display: block;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 500px;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 350PX;
+    color: white;
+}
+#priform2 label{
+    
+    font-size: large;
+    color:white
+}
+#priform2 h2{
+    font-size:xx-large;
+    color:white
+}
+.ru{
+    transition: .3s;
+    font-size: large;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.ru:focus{
+    
+    transition: .3s;
+    background-color:rgb(251, 223, 255);
+    transform:scale(1.1);
+}
+.ru:hover{
+    transform:scale(1.1);
+    background-color:rgb(251, 223, 255);
+    
+    
+}
+#pru{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    text-decoration: solid;
+    text-shadow: 20px 20px 20px color(srgb white green blue);
+    text-align: center;
+    
+    background-position: center;
+    background-image: url(../img/cinne8.jpg);
+    background-size: cover;
+    background-position-y: -650px;
+}
+#pru2{
+    font-size: larger;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: rgb(255, 145, 129);
+    width: 200px;
+    height: min-content;
+}
+#yr{
+    text-decoration: none;
+    color: black;
+}
+
+.xd{
+    
+    width: 130px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: large;
+    background-color: rgb(248, 193, 255);
+    border-style: none;
+    border-radius: 5px;
+    transition: .4s;
+}
+.xd:hover{
+    transition: .4s;
+    cursor: pointer;
+    background-color: rgb(187, 28, 231);
+    color: white;
+}
+
+
+body{
+    background-image: url(../img/malph.jpg);
+   
+}
+#foter{
+    border-radius: 10px;
+    background-position-y: -230px;
+    background-image: url(../img/mao.jpg);
+    background-size: auto;
+    text-align: center;
+    display:block;
+    justify-content: center;
+    height: 130px;
+    background-color: rgb(247, 214, 187);;
+    margin-top: 20px;
+}
+#foter h2{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: white;
+    
+
+}
+#foter2{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.reds{
+    margin-top: 20px;
+    margin-left: 50px;
+    max-width: 40px;
+}
+#inderr{
+    color :white;
+}
